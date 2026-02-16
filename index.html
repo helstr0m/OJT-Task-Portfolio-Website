@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Dic Lagura</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, <br>I am <span class="home__title-color">Dic Lagura</span><br> Web Designer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.facebook.com/keilagura1703" class="home__social-icon"><i class="bx bxl-facebook"></i></a>
+                <a href="https://github.com/helstr0m" class="home__social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="asset/img/image with purple bg - cropped.png" alt="">
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="asset/img/picture.png" alt="Picture of Me">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I am Dic Lagura</h2>
+                    <p class="about__text">Motivated Computer Science student with a solid foundation in coding,
+                        problem-solving, and analytical reasoning, and a strong interest in computer
+                        hardware and systems. Dedicated to continuous learning and building
+                        innovative, real-world digital solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">I possess a solid foundation in web development, with experience in building responsive and user-friendly applications using HTML, CSS, JavaScript, PHP, and SQL. 
+                        I am familiar with backend development using Node.js, and have worked with MongoDB for managing and organizing application data. 
+                        I use tools such as Visual Studio Code and AI-assisted code generation to improve development efficiency, and I have basic knowledge of Ubuntu Linux, as well as hardware and software troubleshooting. 
+                        Additionally, I have experience with UI/UX design using GIMP and Canva, allowing me to create visually appealing and functional interfaces.
+                    </p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-html5 skills__icon"></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-css3 skills__icon"></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-javascript skills__icon"></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                    
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxs-paint skills__icon"></i>
+                            <span class="skills__name">UI/UX</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+
+                        <div class="skills__bar skills__uiux"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="asset/img/programming stock image.jpg" alt="" class="skills__img">
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="projects section" id =projects>
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+                    <div class="projects__card">
+                        <a href="https://helstr0m.github.io/Flexbox-Card-Layout/"><h3>Flexbox Card Layout</h3></a>
+                        <p>Intern Task: A responsive card layout using CSS Flexbox</p>
+                    </div>
+
+                    <div class="projects__card">
+                        <a href="https://helstr0m.github.io/Calculator/"><h3>Calculator</h3></a>
+                        <p>A simple calculator</p>
+                    </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formsubmit.co/keilagura71703@gmail.com" method="POST" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input" required>
+                    <input type="email" placeholder="Email" class="contact__input" required>
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input" required></textarea>
+
+                    <input type="submit" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Dic Lagura</p>
+
+        <div class="footer__social">
+            <a href="https://www.facebook.com/keilagura1703" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <p>&#169; 2026 Dic Lagura </p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
